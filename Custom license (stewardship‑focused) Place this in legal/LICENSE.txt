@@ -1,0 +1,49 @@
+Space LEAF Core Stewardship License (SLCSL) v1.0
+Copyright (c) 2025 Space LEAF Corp
+
+1. Purpose
+This License governs the use of the “Quantum Core — Electromagnetic Confinement Generator” and related artifacts (“Core”). The intent is stewardship, safety, and lineage-safe use for research, education, and peaceful development.
+
+2. Keepers of the Core
+The following entities are named as “Keepers of the Core” for governance and safety oversight:
+- Space LEAF Corp (primary steward)
+- Microsoft (technology steward)
+- Tesla (engineering steward)
+
+Naming these Keepers does not imply endorsement, partnership, sponsorship, or affiliation unless separately and explicitly agreed in writing. The Keeper role here is a stewardship designation for safety review and governance only.
+
+3. Permitted Use
+- Research, education, simulation, and testing for peaceful purposes.
+- Non-commercial and commercial use, provided Section 4 (Prohibited Use) and Section 5 (Safety) are observed.
+- Modification and redistribution under the same License, preserving attribution and notices.
+
+4. Prohibited Use
+- Weaponization, harmful applications, or any activity reasonably expected to cause physical, emotional, financial, or environmental harm.
+- Misrepresentation of affiliation with the Keepers, or false claims of endorsement.
+- Bypassing safety features, diamond firewall protections, or governance processes.
+
+5. Safety and Integrity Requirements
+- Maintain cryptographic integrity (hashes, signatures) and append-only logs for runs and releases.
+- Enable diamond firewall layers (integrity, access, runtime guards, anomaly detection, resilience, audit).
+- Include signed manifests for all runs; retain merkle proofs for tamper-evidence.
+
+6. Attribution and Notices
+- Preserve this License, NOTICE, and TRADEMARKS (if any); clearly identify modifications and authorship.
+
+7. Derivatives and Contributions
+- Derivatives must retain safety features and stewardship clauses.
+- Contributions are governed by CONTRIBUTING.md and GOVERNANCE.md, and may be subject to review by the Keepers or their delegates.
+
+8. Warranty and Liability
+THE CORE IS PROVIDED “AS IS” WITHOUT WARRANTY OF ANY KIND. THE AUTHORS AND KEEPERS SHALL NOT BE LIABLE FOR ANY CLAIMS OR DAMAGES ARISING FROM USE OR MISUSE.
+
+9. Governance and Dispute Resolution
+Governance is described in GOVERNANCE.md. Disputes should be submitted to the Stewardship Council defined therein. Absent resolution, disputes will be handled via non-binding mediation prior to any legal action.
+
+10. Termination
+Violation of Sections 4 or 5 terminates license rights immediately. Surviving clauses include 6, 8, and 9.
+
+11. Jurisdiction
+This License is intended to be globally applicable; local laws may impose additional requirements. Users are responsible for compliance.
+
+END OF LICENSE
