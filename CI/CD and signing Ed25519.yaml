@@ -1,0 +1,16 @@
+# ci/pipeline.yml
+stages:
+  - lint
+  - test
+  - security
+  - build
+  - sign
+  - release
+
+steps:
+  - run: pytest -q
+  - run: python tools/validate_schemas.py
+  - run: python tools/security_scan.py
+  - run: python tools/build.py
+  - run: python tools/sign.py --input dist/core.whl --manifest runs/latest.manifest.json
+  - run: python tools/publish.py
