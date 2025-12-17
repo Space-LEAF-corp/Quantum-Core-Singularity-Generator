@@ -1,0 +1,2 @@
+NOTICE
+This repository includes stewardship-oriented safety controls (diamond firewall), signed manifests, and governance artifacts. Naming Microsoft and Tesla as Keepers is a safety designation only, not an endorsement or affiliation.
