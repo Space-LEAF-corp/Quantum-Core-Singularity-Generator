@@ -1,0 +1,22 @@
+{
+  "$id": "schemas/manifest.schema.json",
+  "type": "object",
+  "properties": {
+    "run_id": { "type": "string" },
+    "profile": { "type": "string" },
+    "hashes": { "type": "object" },
+    "signature": { "type": "string" },
+    "results": {
+      "type": "object",
+      "properties": {
+        "Q_avg": { "type": "number" },
+        "P_in_avg": { "type": "number" },
+        "P_out_avg": { "type": "number" },
+        "events": { "type": "array", "items": { "type": "string" } }
+      },
+      "required": ["Q_avg","P_in_avg","P_out_avg","events"]
+    },
+    "verdict": { "type": "string", "enum": ["PASS","WARN","FAIL"] }
+  },
+  "required": ["run_id","profile","hashes","signature","results","verdict"]
+}
